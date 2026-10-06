@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['horse']
+
+roboflow:
+  workspace: ezz-mahdy
+  project: horse-kofgt-jchhd
+  version: 1
+  license: CC BY 4.0
+  url: https://app.roboflow.com/ezz-mahdy/horse-kofgt-jchhd/1

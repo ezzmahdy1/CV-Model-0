@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Horse', 'horse-eating', 'horse-laying', 'horse-standing']
+
+roboflow:
+  workspace: jonathan-miller-shbdm
+  project: horse-bikoy
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/jonathan-miller-shbdm/horse-bikoy/dataset/1

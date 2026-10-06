@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['horse']
+
+roboflow:
+  workspace: ezz-mahdy
+  project: cv-model-0-finaldataset
+  version: 2
+  license: MIT
+  url: https://universe.roboflow.com/ezz-mahdy/cv-model-0-finaldataset/dataset/2
